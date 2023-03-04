@@ -20,7 +20,13 @@ public class Main {
             // (2*10) + 4 = 24
             //24/10 = 2
         }
-        return true;
+        if(reverseNumber==number){
+            return true;
+        }
+        else {
+            return false;
+        }
+       
     }
     public static void main(String[] args) {
         isPalindrome(101);
